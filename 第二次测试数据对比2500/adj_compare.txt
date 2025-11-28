@@ -1,0 +1,36 @@
+Paired comparison for episodes: 500 episodes (aligned)
+
+Summary statistics (per-episode means across steps):
+Metric, no_ude_mean, no_ude_std, ude_mean, ude_std, mean_diff (no_ude - ude)
+adj_mean, 0.136462, 0.078675, 0.136462, 0.078675, 0.000000
+adj_diff, 0.060311, 0.046081, 0.060311, 0.046081, 0.000000
+
+First 10 episode pairs (adj_mean):
+ episode   no_ude      ude
+       1 0.550743 0.550743
+       2 0.540510 0.540510
+       3 0.530041 0.530041
+       4 0.520904 0.520904
+       5 0.511331 0.511331
+       6 0.503288 0.503288
+       7 0.497320 0.497320
+       8 0.495482 0.495482
+       9 0.485362 0.485362
+      10 0.478283 0.478283
+
+First 10 episode pairs (adj_diff):
+ episode   no_ude      ude
+       1 0.002813 0.002813
+       2 0.003370 0.003370
+       3 0.002817 0.002817
+       4 0.003374 0.003374
+       5 0.003394 0.003394
+       6 0.005349 0.005349
+       7 0.005002 0.005002
+       8 0.012270 0.012270
+       9 0.006127 0.006127
+      10 0.006054 0.006054
+
+Stat tests (paired t-test across episodes):
+adj_mean: t=nan, p=nan, df=499
+adj_diff: t=nan, p=nan, df=499
