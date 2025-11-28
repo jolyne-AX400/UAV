@@ -1,0 +1,7 @@
+
+numpy
+torch
+pandas
+matplotlib
+gym==0.26.2
+torchdiffeq
